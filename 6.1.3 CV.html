@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.cv-container {
+    max-width: 1000px; 
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    min-height: 800px;
+}
+.sidebar {
+    flex: 0 0 40%;
+    background-color: #333; 
+    color: white;
+    padding: 30px 20px;
+}
+.sidebar h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #ffd700;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+.sidebar p, .sidebar li {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.icon-placeholder {
+    font-size: 50px;
+    color: #aaa;
+}
+.section {
+    margin-bottom: 25px;
+}
+.contact p i {
+    margin-right: 10px;
+    color: #ffd700;
+}
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+.main-content header {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.main-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+.main-content .title {
+    font-size: 1.2em;
+    color: #007bff;
+    font-weight: bold;
+}
+.content-section {
+    margin-bottom: 30px;
+}
+.content-section h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.content-section h2 i {
+    margin-right: 10px;
+    color: #007bff;
+}
+.content-section .item {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 3px solid #ccc;
+}
+.content-section .item h3 {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 3px;
+}
+
+.content-section .item .period {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+</style>
+<body>
+    <title>Curriculum Vita- Tên Bạn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="cv-container">
+        <div class="sidebar">
+            <div class="profile-pic">
+                <i class="fa-solid fa-user icon-placeholder"></i> 
+            </div>
+            
+            <div class="section contact">
+                <h3>THÔNG TIN CÁ NHÂN</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Địa chỉ: 280 An Dương Vương</p>
+                <p><i class="fa-solid fa-phone"></i> Điện thoại: 0123456789</p>
+                <p><i class="fa-solid fa-envelope"></i>Email: demo@gmail.com</p>
+            </div>
+
+            <div class="section">
+                <h3>SỞ THÍCH</h3>
+                <p>Viết sở thích liên quan đến kiến thức chuyên môn nhằm tăng độ thiện cảm</p>
+                <p>Đi du lịch</p>
+                <p>xem phim, nghe nhạc, đọc sách</p>
+            </div>
+
+            <div class="section skills">
+                <h3>KỸ NĂNG</h3>
+                <ul>
+                    <li>Kỹ năng giao tiếp</li>
+                    <li>Kỹ năng viết nội dung </li>
+                    <li>Kỹ năng quản lí truyền thông</li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="section reference">
+                <h3>NGƯỜI THAM CHIẾU</h3>
+                <p><strong>Nguyễn Văn B</strong> - Phó giám đốc marketing</p>
+                <p>Liên hệ;: 0123456789 </p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <header>
+                <h1>NGUYỄN VĂN A</h1>
+                <p class="title">Nhân viên marketing</p>
+            </header>
+
+            <div class="content-section education">
+                <h2><i class="fa-solid fa-graduation-cap"></i> CHỨNG CHỈ</h2>
+                <div class="item">
+                    <p>Khóa học Marketing online</p>
+                    <p>Tiếng anh B1</p>
+                    <p>Chứng chỉ tin học văn phòng</p>
+                </div>
+            <div class="content-section experience">
+                <h2><i class="fa-solid fa-briefcase"></i> KINH NGHIỆM LÀM VIỆC </h2>
+                <div class="item">
+                    <p class="period">2018-2023</p>
+                    <h3>Công ty TNHH T&H</h3>
+                    <p>Vị trí: Chuyên viên Marketing chương trình marketing của đối thủ</p>
+                    <h3>Mô tả công việc:</h3>
+                    <p>đảm bảo doanh số thị trường được phân công. Mở rộng thị trường tìn đối tác mới. Lập kế hoạch kinh doanh theo tuần, tháng, quý</p>
+                    <h3> Thành tích đạt được:</h3>
+                    <p>Duy trì mối quan hệ giữa công ty và đối tác. Tổng hợp, phân tích báo cáo từ nhân viên kinh doanh và nhân viên chăm sóc khách hàng từ đó lập kế hoạch phù hợp cho Team.</p>
+                </div>
+            </div>
+            </div>
+    </div>
+</body>
+</html>
+</body>
+</html>
